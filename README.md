@@ -7,7 +7,7 @@ Executing the program opens the console with the following text:
 ```
 Enter the filename of sudoku puzzle: 
 ```
-There is a SudokuEasy.txt file in the folder that consists of a easy sudoku puzzle. After entering SudokuEasy.txt into the console we will see the solution.
+There is a SudokuEasy.txt file in the folder that consists of an easy sudoku puzzle. After entering SudokuEasy.txt into the console we will see the solution.
 
 Zeros represent blank spaces.
 
