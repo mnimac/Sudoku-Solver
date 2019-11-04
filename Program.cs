@@ -29,11 +29,14 @@ namespace SudokuSolver
                 bool isSudokuSolved = sudokuSolverEngine.Solve(sudokuBoard);
                 sudokuBoardDisplayer.Display("Final state", sudokuBoard);
 
-                Console.WriteLine(isSudokuSolved ? "Sudoku puzzle is solved" : "This program is not able to solve sudoku puzzle");
+                Console.WriteLine(isSudokuSolved ? "Sudoku puzzle is solved!" : "This program is not able to solve sudoku puzzle");
+                Console.ReadLine();
             }
             catch (Exception ex)
             {
                 Console.WriteLine("{0} {1}", "Sudoku cannot be solved: ", ex.Message);
+                Console.ReadLine();
+
             }
         }
     }
